@@ -1,0 +1,39 @@
+/* mobile first 
+ - sreen size 230px-550px */
+
+
+img {
+    width: 100%;
+}
+
+header {
+    border: 3px solid rgb(12, 1, 26);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.pic_container {
+    width: 30%;
+    margin: 5px;
+}
+
+
+ /* Desktop here 
+ sizes 550px-*/
+
+ @media (min-width: 550px){
+     body {
+         background-color: yellow;
+         display: flex;
+     }
+header {
+    height: 50%;
+}
+
+ }
